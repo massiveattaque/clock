@@ -7,7 +7,7 @@
 :root {
 	--hue: 223;
 	--bg: #FFFFFF; 
-	--fg: #191919; 
+	--fg: #000000; 
 	--primary: hsl(var(--hue),90%,50%);
 	--trans-dur: 0.3s;
 	font-size: calc(20px + (60 - 20) * (100vw - 320px) / (2560 - 320));
@@ -59,7 +59,7 @@ body.black-theme {
 
 body.white-theme {
   color: #FFFFFF;
-background-color:#191919;
+background-color:#000000;
 }
 
 #setting-wrapper {
